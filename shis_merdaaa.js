@@ -9,7 +9,7 @@ function appendAddToCartButton() {
                 button.setAttribute("class", "btn-shopping-cart btn-shopping-neutral use-ajax");
                 button.setAttribute("data-progress-type", "fullscreen");
                 button.setAttribute("href", "/en/direct-buy/add-to-cart/" + itemId);
-                button.setAttribute("style", "color: #ffc0cb !important;background-color: #00ff00 !important;border: 2px solid #ffc0cb !important;");
+                button.setAttribute("style", "color: #ffc0cb !important;background-color: #7ba05b !important;border: 2px solid #ffc0cb !important;");
                 button.innerHTML = "Shis succhialo";
                 item.getElementsByClassName("shop-links")[0].innerHTML = "";
                 item.getElementsByClassName("shop-links")[0].appendChild(button);
@@ -23,7 +23,7 @@ function appendAddToCartButton() {
                 var button = document.createElement("button");
                 button.setAttribute("class", "btn-shopping-cart btn-shopping-neutral use-ajax");
                 button.setAttribute("href", "/en/direct-buy/add-to-cart/" + itemId);
-                button.setAttribute("style", "color: #ffc0cb !important;background-color: #00ff00 !important;border: 2px solid #ffc0cb !important;");
+                button.setAttribute("style", "color: #ffc0cb !important;background-color: #7ba05b !important;border: 2px solid #ffc0cb !important;");
                 button.innerHTML = "Shis succhialo";
                 document.getElementsByClassName("product-page-description")[0].appendChild(button);
             }
